@@ -8,8 +8,8 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "yanzhi.liu" => "karlcool.l@qq.com" }
   s.source       = { :git => "https://github.com/karlcool/LRXF.git", :tag => "#{s.version}" }
-  s.source_files        = 'Src/*.{h,m}'
-  s.vendored_libraries = 'Src/*.framework'
+  # s.source_files        = 'Src/*.{h,m}'
+  s.vendored_libraries = 'Src/iflyMSC.framework'
   s.library = "z"
   s.frameworks = "AVFoundation", "SystemConfiguration", "Foundation", "CoreTelephony", "AddressBook"
 end
