@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "LRXF"
-  s.version      = "1.174.8"
+  s.version      = "1.174.9"
   s.platform     = :ios, "9.0"
   s.summary      = "讯飞听写sdk"
   s.description  = "讯飞听写sdk"
@@ -49,7 +49,4 @@ Pod::Spec.new do |s|
          link "c++"
      }
      \EOF
-     EOF
-
-
 end
