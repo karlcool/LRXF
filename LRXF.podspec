@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "LRXF"
-  s.version      = "1.174.6"
+  s.version      = "1.174.8"
   s.platform     = :ios, "9.0"
   s.summary      = "讯飞听写sdk"
   s.description  = "讯飞听写sdk"
@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
    s.requires_arc = false
 
      s.prepare_command     = <<-EOF
-     mkdir Source/iflyMSC.framework/Modules
-     touch Source/iflyMSC.framework/Modules/module.modulemap
+     mkdir Src/iflyMSC.framework/Modules
+     touch Src/iflyMSC.framework/Modules/module.modulemap
      cat <<-EOF > Src/iflyMSC.framework/Modules/module.modulemap
      framework module iflyMSC {
 		 header "IFlyAudioSession.h"
