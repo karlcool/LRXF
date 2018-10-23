@@ -48,5 +48,5 @@ Pod::Spec.new do |s|
          link "z"
          link "c++"
      }
-     \EOF
+     EOF
 end
